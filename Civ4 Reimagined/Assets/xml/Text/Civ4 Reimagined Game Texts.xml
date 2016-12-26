@@ -1,0 +1,1271 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+	<TEXT>
+		<Tag>TXT_KEY_LOREM_IPSUM</Tag>
+		<English>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISC_YOU_AIRBOMBSUCCESS</Tag>
+		<English>You have destroyed a [COLOR_BUILDING_TEXT]%s1_BldgName[COLOR_GREEN] in %s2_CityName.</English>
+		<French>Vous avez détruit [NUM1:un:une] [COLOR_BUILDING_TEXT]%s1_BldgName[COLOR_GREEN] à %s2_CityName.</French>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISC_ENEMY_AIRBOMBSUCCESS</Tag>
+		<English>The enemy has destroyed a [COLOR_BUILDING_TEXT]%s1_BldgName[COLOR_RED] in %s2_CityName.</English>
+		<French>L'ennemi a détruit [NUM1:un:une] [COLOR_BUILDING_TEXT]%s1_BldgName[COLOR_GREEN] à %s2_CityName.</French>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISC_YOU_AIRBOMBFAIL</Tag>
+		<English>You have failed to destroy a production building in %s1_CityName.</English>
+		<French>Vous n'avez pas réussi à détruire un bâtiment à %s1_CityName.</French>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISC_ENEMY_AIRBOMBFAIL</Tag>
+		<English>The enemy has failed to destroy a building in %s1_CityName.</English>
+		<French>L'ennemi n'a pas réussi à détruire un bâtiment à %s1_CityName.</French>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISC_NEW_NUCLEAR_POWER</Tag>
+		<English>%s1_PlyrName has conducted a succesful Nuclear weapons test!</English>
+		<French>%s1_PlyrName a réussi un essai d'arme nucléaire !</French>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_NUCLEAR_RESEARCH_CENTER</Tag>
+		<English>Nuclear Research Center</English>
+		<French>Centre de recherche nucléaire</French>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_MISSILE_SILO</Tag>
+		<English>Missile Silo</English>
+		<French>Silo de missiles</French>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_NO_UPGRADE</Tag>
+		<English>[ICON_BULLET]Cannot Be Upgraded</English>
+		<German>[ICON_BULLET]Kann nicht aufgerüstet werden</German>
+		<French>[ICON_BULLET]Ne peut pas être amélioré</French>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_EXTRA_UPKEEP_TEXT</Tag>
+		<English>[ICON_BULLET]Costs %d1 [ICON_GOLD] Additional Upkeep</English>
+		<German>[ICON_BULLET]Kostet %d1 [ICON_GOLD] zusätzlichen Unterhalt</German>
+		<French>[ICON_BULLET]Coûte %d1 [ICON_GOLD] d'entretien supplémentaire</French>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_MERCENARY</Tag>
+		<English>Mercenary</English>
+		<French>Mercenaire</French>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_ALCHEMY</Tag>
+		<English>Alchemy</English>
+		<French>Alchimie</French>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_RANGED_ATTACK</Tag>
+		<English>[ICON_BULLET]Attack Bonus vs Units with smaller Range</English>
+		<German>[ICON_BULLET]Attack Bonus vs Units with smaller Range</German>
+		<French>[ICON_BULLET]Bonus d'attaque contre unités avec une portée inférieure</French>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_BOMB_RATE</Tag>
+		<English>[ICON_BULLET]Can Destroy Tile Improvements and Bombard Cities (Bombard Strength: %d1_Mod)</English>
+		<German>[ICON_BULLET]Kann Gel&#228;ndefeld-Modernisierungen zerst&#246;ren und St&#228;dte bombardieren (St&#228;rke: %d1_Mod)</German>
+		<French>[ICON_BULLET]Peut détruire des aménagements et bombarder des villes (puissance de bombardement : %d1_Mod)</French>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRADE_ROUTE_MOD_DOMESTIC</Tag>
+		<English>%D1%%: for domestic Trade</English>
+		<French>%D1%%: pour le commerce intérieur</French>
+	</TEXT>
+	<TEXT>
+		<Tag>CHANGED_TXT_KEY_CORPORATION_2</Tag>
+		<English>East India Company</English>
+		<French>Compagnie des Indes Orientales</French>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_CENTRAL_INTELLIGENCE_AGENCY</Tag>
+		<English>Central Intelligence Agency</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISC_HELP_EXTRA_YIELD</Tag>
+		<English>[ICON_BULLET]%D1%F2 from Civics</English>
+		<French>[ICON_BULLET]%D1%F2 grâce aux doctrines</French>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_SPECIALIST_YIELD_CHANGE</Tag>
+		<English>[ICON_BULLET]%D1_Change%F2_Icon from[SPACE]</English>
+		<French>[ICON_BULLET]%D1_Change%F2_Icon grâce à[SPACE]</French>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_VOTE_NO_NUKES</Tag>
+		<English>U.N. Resolution #1284 (Nuclear Non-Proliferation Treaty - Cannot Build Nuclear Research Centers)</English>
+		<French>Résolution #1284 des Nations Unies (Traité de non-prolifération nucléaire - Construction de centres de recherche nucléaire impossible)</French>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_COLLATERAL_DAMAGE</Tag>
+		<English>[ICON_BULLET]Causes Collateral Damage (%d1 units)</English>
+		<French>[ICON_BULLET]Provoque des dommages collatéraux (%d1 unités)</French>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GOODY_UPGRADE</Tag>
+		<English>The villagers equip your warrior with advanced weaponry!</English>
+		<French>Les villageois équipent votre guerrier avec un armement avancé !</French>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GOODY_PRODUCTION</Tag>
+		<English>The villagers give you some of their resources.</English>
+		<French>Les villageois vous donnent une partie de leurs ressources.</French>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISC_RECEIVED_PRODUCTION</Tag>
+		<English>[SPACE]You receive %d1 production in %s2.</English>
+		<French>[SPACE]Vous recevez %d1 production à %s2.</French>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GOODY_FOOD</Tag>
+		<English>The villagers hold a feast for the visitors!</English>
+		<French>Les villageois organisent un festin en l'honneur des visiteurs !</French>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISC_RECEIVED_FOOD</Tag>
+		<English>[SPACE]You receive %d1 food in %s2.</English>
+		<French>[SPACE]Vous recevez %d1 nourriture à %s2.</French>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GOODY_CULTURE</Tag>
+		<English>The villagers tell you about their legends and myths.</English>
+		<French>Les villageois vous racontent leurs légendes et mythes.</French>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISC_RECEIVED_CULTURE</Tag>
+		<English>[SPACE]You receive %d1 culture in %s2.</English>
+		<French>[SPACE]Vous recevez %d1 culture à %s2.</French>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GOODY_GREAT_PERSON_POINTS</Tag>
+		<English>An extraordinary thinker from this village agrees to settle in your lands and teach your citizen.</English>
+		<French>Un extraordinaire penseur de ce village accepte de s'installer sur vos terres et d'enseigner à vos citoyens.</French>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISC_RECEIVED_GREAT_PERSON_POINTS</Tag>
+		<English>[SPACE]Your great person points in %s2 increases by %d1.</English>
+		<French>[SPACE]Vous recevez %d1 points de personnages illustres à %s2.</French>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GOODY_GREAT_GENERAL_POINTS</Tag>
+		<English>The war songs and rituals of the villagers impress many of your men.</English>
+		<French>Les chants et rituels guerriers des villageois impressionnent nombre de vos hommes.</French>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISC_RECEIVED_GREAT_GENERAL_POINTS</Tag>
+		<English>[SPACE]You receive %d1 points towards a great general.</English>
+		<French>[SPACE]Vous recevez %d1 points de général illustre.</French>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GOODY_SPECIAL_PROMOTION</Tag>
+		<English>The villagers teach your unit special techniques</English>
+		<French>Les villageois enseignent à votre unité des techniques spéciales</French>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISC_RECEIVED_PROMOTION_TACTICS</Tag>
+		<English>, effective for ambushing enemies.</English>
+		<French>, efficaces pour tendre des ambuscades aux ennemis.</French>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISC_RECEIVED_PROMOTION_COMMANDO</Tag>
+		<English>[SPACE]and the power of using enemy infrastructure.</English>
+		<French>[SPACE]et la capacité d'utiliser les infrastructures ennemies.</French>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISC_RECEIVED_PROMOTION_LEADERSHIP</Tag>
+		<English>, making it proficient in the art of leadership.</English>
+		<French>, faisant d'elle un chef compétent.</French>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISC_RECEIVED_PROMOTION_MORALE</Tag>
+		<English>[SPACE]and how to muster all its strength to march a longer distance.</English>
+		<French>[SPACE]et l'art de rassembler ses forces pour marcher de plus longues distances.</French>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISC_RECEIVED_PROMOTION_NONE</Tag>
+		<English>. Your unit already knows all of their special techniques, but it gains some useful experience nontheless.</English>
+		<French>. Votre unité connaît déjà toutes ces techniques, mais gagne néanmoins un peu d'expérience utile.</French>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISC_HELP_PROD_MOD_NUM_BONUS_UNIT</Tag>
+		<English>[ICON_BULLET]Only uses %d1%%[ICON_PRODUCTION] because of insufficient resources for this unit (halved resource ratio penalty for strategic resources)</English>
+		<French>[ICON_BULLET]Utilise uniquement %d1%%[ICON_PRODUCTION] en raison de ressources insuffisantes pour cette unité (pénalité de taux de ressource divisé par deux pour les ressources stratégiques)</French>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISC_HELP_PROD_MOD_NUM_BONUS_BUILDING</Tag>
+		<English>[ICON_BULLET]Only uses %d1%%[ICON_PRODUCTION] because of insufficient resources for this building (halved resource ratio penalty for strategic resources)</English>
+		<French>[ICON_BULLET]Utilise uniquement %d1%%[ICON_PRODUCTION] en raison de ressources insuffisantes pour ce bâtiment (pénalité de taux de ressource divisé par deux pour les ressources stratégiques)</French>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISC_HELP_PROD_MOD_NO_BONUS_UNIT</Tag>
+		<English>[ICON_BULLET]Only uses minimal [ICON_PRODUCTION] because of insufficient resources for this unit</English>
+		<French>[ICON_BULLET]Utilise uniquement une quantité minimale de [ICON_PRODUCTION] en raison de ressources insuffisantes pour cette unité</French>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISC_HELP_PROD_MOD_NO_BONUS_BUILDING</Tag>
+		<English>[ICON_BULLET]Only uses minimal [ICON_PRODUCTION] because of insufficient resources for this building</English>
+		<French>[ICON_BULLET]Utilise uniquement une quantité minimale de [ICON_PRODUCTION] en raison de ressources insuffisantes pour ce bâtiment</French>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_CLASSICAL_TEMPLE</Tag>
+		<English>Classical Temple</English>
+		<French>Temple classique</French>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_CITY_ATTACK_TEXT</Tag>
+		<English>[ICON_BULLET]Ignores %d1%% City Defense</English>
+		<French>[ICON_BULLET]Ignore %d1%% de défense de la ville</French>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_CITY_ATTACK_MALUS_TEXT</Tag>
+		<English>[ICON_BULLET]%d1%% City Attack</English>
+		<French>[ICON_BULLET]%d1%% d'attaque de ville</French>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_SAN_MARCO</Tag>
+		<English>San Marco Basilica</English>
+		<French>Basilique Saint-Marc</French>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_BRANDENBURG_GATE</Tag>
+		<English>Brandenburg Gate</English>
+		<French>Porte de Brandebourg</French>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_KGB</Tag>
+		<English>Lubyanka</English>
+		<German>Lubyanka</German>
+		<French>Loubianka</French>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_REQUIRES_PERCENT_SPECIAL_BUILDINGS_NO_CITY</Tag>
+		<English>[COLOR_WARNING_TEXT]Requires %s1_Name in %d2%% of all cities[COLOR_REVERT]</English>
+		<French>[COLOR_WARNING_TEXT]Nécessite %s1_Name dans %d2%% de vos villes[COLOR_REVERT]</French>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_HEAVY_FOOTMAN</Tag>
+		<English>Heavy Footman</English>
+		<French>Fantassin lourd</French>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_ISHTAR_GATE</Tag> <!-- translation needed! -->
+		<English>Ishtar Gate</English>
+		<French>
+			<Text>Porte d'Ishtar</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Ishtar-Tor</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Ishtar Gate</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Ishtar Gate:Ishtar Gate</Text>
+			<Gender>Male</Gender>
+			<Plural>0:1</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_GRAND_CANAL</Tag>
+		<English>The Grand Canal</English>
+		<German>Kaiserkanal</German>
+		<French>Grand Canal</French>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_FLOATING_GARDENS</Tag>
+		<English>Floating Gardens</English>
+		<German>Schwimmende Gärten</German>
+		<French>Jardins Suspendus</French>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_RED_FORT</Tag>
+		<English>The Red Fort</English>
+		<German>Das Rote Fort</German>
+		<French>Fort Rouge</French>	
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_ST_BASIL_CATHEDRAL</Tag> <!-- translation needed! -->
+		<English>St. Basil's Cathedral</English>
+		<French>
+			<Text>Cathédrale Saint-Basile</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Basilius-Kathedrale</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>St. Basil's Cathedral</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>St. Basil's Cathedral:St. Basil's Cathedral</Text>
+			<Gender>Male</Gender>
+			<Plural>0:1</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_HARMANDIR_SAHIB</Tag>
+		<English>Harmandir Sahib</English>
+		<German>Harmandir Sahib</German>
+		<French>Harmandir Sahib</French>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_STATE_RELIGION_FREE_XP</Tag>
+		<English>[ICON_BULLET]All units built in cities with state religion receive +2 experience</English>
+		<German>[ICON_BULLET]Alle Einheiten, die in Städten mit Staatsreligion ausgebildet werden, erhalten +2 Erfahrung</German>
+		<French>[ICON_BULLET]Toutes les unités entraînées dans des villes avec la religion d'Etat reçoivent +2 expérience</French>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_DEFENSE_WAR_WEAR</Tag>
+		<English>[ICON_BULLET]Additional %D1_percent%% Defense War Weariness</English>
+		<French>[ICON_BULLET]%D1_percent%% supplémentaires de mécontentement de guerre défensive</French>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_WESTMINSTER</Tag> <!-- translation needed! -->
+		<English>Westminster Palace</English>
+		<French>
+			<Text>Palais de Westminster</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Palast von Westminster</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Westminster Palace</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Westminster Palace:Westminster Palace</Text>
+			<Gender>Male</Gender>
+			<Plural>0:1</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_CERN</Tag>
+		<English>CERN Research Complex</English>
+		<French>
+			<Text>CERN</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>CERN Forschungskomplex</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>CERN</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>CERN</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_NO_CONQUEST_RESISTANCE</Tag>
+		<English>[ICON_BULLET]No City Resistance on Conquest</English>
+		<French>[ICON_BULLET]Aucune résistance des villes conquises</French>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_FIRST_FREE_TECH</Tag>
+		<English>[ICON_BULLET]First to Discover Receives a [COLOR_TECH_TEXT]Free Technology[COLOR_REVERT] of current era</English>
+		<French>[ICON_BULLET]Le premier à la découvrir reçoit une [COLOR_TECH_TEXT]technologie gratuite[COLOR_REVERT] de l'ère en cours</French>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_FIRST_FREE_TECHS</Tag>
+		<English>[ICON_BULLET]First to Discover Receives [COLOR_TECH_TEXT]%d1_Num Free Technologies[COLOR_REVERT] of current era</English>
+		<French>[ICON_BULLET]Le premier à la découvrir reçoit [COLOR_TECH_TEXT]%d1_Num technologies gratuites[COLOR_REVERT] de l'ère en cours</French>
+	</TEXT>
+	<TEXT>
+		<Tag>USER_DIPLO_REVOLUTION_1</Tag>
+		<English>But of course... we now see the error of our ways. (Change Civic without anarchy)</English>
+		<French>Mais bien sûr... nous comprenons maintenant notre erreur. (changer de doctrine sans anarchie)</French>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_REQUIRES_HILL</Tag>
+		<English>[COLOR_WARNING_TEXT]Can only be Constructed on Hills[COLOR_REVERT]</English>
+		<French>[COLOR_WARNING_TEXT]Ne peut être construit que sur une colline[COLOR_REVERT]</French>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_REQUIRES_FLATLANDS</Tag>
+		<English>[COLOR_WARNING_TEXT]Cannot be Constructed on Hills[COLOR_REVERT]</English>
+		<French>[COLOR_WARNING_TEXT]Ne peut pas être construit sur une colline[COLOR_REVERT]</French>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_REQUIRES_IN_FATCROSS</Tag>
+		<English>[COLOR_WARNING_TEXT]Requires %s1_Text in City Proximity (Fat Cross)[COLOR_REVERT]</English>
+		<French>[COLOR_WARNING_TEXT]Nécessite %s1_Text à proximité de la ville (grande croix)[COLOR_REVERT]</French>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_REQUIRES_PEAK_IN_FATCROSS</Tag>
+		<English>[COLOR_WARNING_TEXT]Requires Peak in City Proximity (Fat Cross)[COLOR_REVERT]</English>
+		<French>[COLOR_WARNING_TEXT]Nécessite une montagne à proximité de la ville (grande croix)[COLOR_REVERT]</French>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISC_ATTITUDE_CIVICS_GOOD</Tag>
+		<English>%D1: "You have wisely chosen your Civics."</English>
+		<French>%D1: "Vous avez choisi vos doctrines avec sagesse."</French>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISC_ATTITUDE_CIVICS_BAD</Tag>
+		<English>%D1: "You should really consider changing your Civics."</English>
+		<French>%D1: "Vous devriez vraiment envisager de changer vos doctrines."</French>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISC_ATTITUDE_FAVORITE_CIVIC</Tag>
+		<English>%D1: "We are glad that you have chosen our favorite Civic."</English>
+		<French>%D1: "Nous sommes heureux que vous ayez choisi notre doctrine favorite."</French>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_WORLD_TOTESTRA</Tag>
+		<English>Totestra (Recommended)</English>
+		<French>Totestra (recommandé)</French>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_STADIUM</Tag>
+		<English>Stadium</English>
+		<French>Stade</French>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_TERRACOTTA_ARMY</Tag>
+		<English>Terracotta Army</English>
+		<French>Armée de Terre Cuite</French>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_HIMEJI_CASTLE</Tag>
+		<English>Himeji Castle</English>
+		<French>Château de Himeji</French>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_LOOTING_MOD</Tag>
+		<English>[ICON_BULLET]%D1_Mod%% looted [ICON_GOLD] from Espionage Missions and Pillaged Tiles</English>
+		<French>[ICON_BULLET]%D1_Mod%% [ICON_GOLD] reçu lors de missions d'espionnage ou de pillages</French>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_TRAFALGAR_SQUARE</Tag>
+		<English>Trafalgar Square</English>
+		<French>Trafalgar Square</French>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_GUTENBERG_PRESS</Tag>
+		<English>Gutenberg Press</English>
+		<French>Imprimerie de Gutenberg</French>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_NO_NON_STATE_RELIGION_SPREAD</Tag>
+		<English>[ICON_BULLET]No non-state religion spread</English>
+		<French>[ICON_BULLET]Aucune propagation de religion non officielle</French>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_UNLIMITED_BARB_XP</Tag>
+		<English>[ICON_BULLET]Unlimited Experience from Barbarian Units</English>
+		<German>[ICON_BULLET]Unbegrenzte Erfahrung von barbarischen Einheiten</German>
+		<French>[ICON_BULLET]Expérience illimitée sur les unités barbares</French>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_BARB_GREAT_GENERAL</Tag>
+		<English>[ICON_BULLET]Victories Against Barbarians Contribute to Great General Birth</English>
+		<German>[ICON_BULLET]Siege gegen Barbaren tragen zur Geburt großer Generäle bei</German>
+		<French>[ICON_BULLET]Les victoires contre les barbares contribuent à la naissance de généraux illustres</French>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_REQUIRES_NAVAL_UNIT_LEVEL</Tag>
+		<English>[COLOR_WARNING_TEXT]Requires a Naval Unit of Level %d1_Num Experience[COLOR_REVERT]</English>
+		<German>[COLOR_WARNING_TEXT]Erfordert eine Seeeinheit mit Erfahrungsstufe %d1_Num[COLOR_REVERT]</German>
+		<French>[COLOR_WARNING_TEXT]Nécessite une unité navale de niveau %d1_Num Experience[COLOR_REVERT]</French>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_FREE_TECH</Tag>
+		<English>[ICON_BULLET]1 Free Technology of Current Era</English>
+		<French>[ICON_BULLET]1 Technologie de l'ère actuelle gratuite</French>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRADE_ROUTE_MOD_COLONY</Tag>
+		<English>%D1%%: for Colony Trade</English>
+		<French>%D1%%: pour le commerce vers les colonies</French>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_BISON</Tag>
+		<English>Bison</English>
+		<French>Bisons</French>
+		<Italian>Bisonte</Italian>
+		<Spanish>
+			<Text>Bisontes</Text>
+			<Gender>Male</Gender>
+			<Plural>1</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_ACTION_EXTRA_RESEARCH</Tag>
+		<!-- TXT_KEY_TECH_ -->
+		<English>%D1_NumResearch[ICON_RESEARCH] for Research of [COLOR_TECH_TEXT]%s2_TechName[COLOR_REVERT]. Overflow Applies to Future Technologies.</English>
+		<French>%D1_NumResearch[ICON_RESEARCH] pour rechercher : [COLOR_TECH_TEXT]%s2_TechName[COLOR_REVERT].</French>
+		<German>%D1_NumResearch[ICON_RESEARCH] f&#252;r die Erforschung der Technologie [COLOR_TECH_TEXT]%s2_TechName[COLOR_REVERT].</German>
+		<Italian>%D1_NumResearch[ICON_RESEARCH] per la ricerca [NUM2:del:della:degli:delle] [COLOR_TECH_TEXT]%s2_TechName[COLOR_REVERT].</Italian>
+		<Spanish>%D1_NumResearch [ICON_RESEARCH] para investigar [NUM2:el:la:los:las] [COLOR_TECH_TEXT]%s2_TechName[COLOR_REVERT].</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_GREAT_TERRACE</Tag>
+		<English>Great Terrace</English>
+		<French>Grande terrasse</French>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_IGNORE_BUILDING_DEFENSE</Tag>
+		<English>[ICON_BULLET]Ignores Building Defense</English>
+		<French>[ICON_BULLET]Ignore la défense du bâtiment</French>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_REQUIRES_UNIT_LEVEL</Tag>
+		<English>[COLOR_WARNING_TEXT]Requires a Military Unit of Level %d1_Num Experience[COLOR_REVERT]</English>
+		<German>[COLOR_WARNING_TEXT]Erfordert eine Militäreinheit mit Erfahrungsstufe %d1_Num[COLOR_REVERT]</German>
+		<French>[COLOR_WARNING_TEXT]Nécessite une unité militaire de niveau %d1_Num Experience[COLOR_REVERT]</French>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISC_NUKE_LAUNCHED</Tag>
+		<English>%s1_PlyrName launches a %s2_UnitName!</English>
+		<French>%s1_PlyrName lance [NUM2:un:une:des:des] %s2_UnitName, qui explose !</French>
+		<German>%s1_PlyrName hat eine Einheit %s2_UnitName gestartet, die jedoch explodierte!!!</German>
+		<Italian>%s1_PlyrName lancia un'unit&#224; %s2_UnitName, che esplode!!!</Italian>
+		<Spanish>%s1_PlyrName ha lanzado [NUM1:un:una:unos:unas] %s2_UnitName, que [NUM2:ha llegado:ha llegado:han llegado:han llegado] a explotar.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_PROGRESSIVE</Tag>
+		<English>Progressive</English>
+		<French>Progressiste</French>
+		<German>
+			<Text>Fortschrittlich:fortschrittliches</Text>
+			<Gender>Male:Neuter</Gender>
+			<Plural>0:0</Plural>
+		</German>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_PROGRESSIVE_SHORT</Tag>
+		<English>Prg</English>
+		<French>Prg</French>
+		<German>For</German>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_FREE_COMMERCE</Tag>
+		<English>[NEWLINE][SPACE][SPACE][ICON_BULLET]%D1%F2_commerce in Each Newly Founded City</English>
+		<French>[NEWLINE][SPACE][SPACE][ICON_BULLET]%D1%F2_commerce dans chaque nouvelle ville fondée</French>
+		<German>[NEWLINE][SPACE][SPACE][ICON_BULLET]%D1%F2_commerce in jeder neu gegr&#252;ndeten Stadt</German>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISC_HELP_PRODUCTION_CIVICS</Tag>
+		<English>[ICON_BULLET]%D1%[ICON_PRODUCTION] from Civics</English>
+		<French>[ICON_BULLET]%D1%[ICON_PRODUCTION] grâce aux doctrines</French>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISC_HELP_PROD_RIVER</Tag>
+		<English>(incl. %D1[ICON_PRODUCTION] from River)</English>
+		<French>(incl. %D1[ICON_PRODUCTION] grâce aux rivières)</French>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_PREREQ_TECH</Tag>
+		<English>[SPACE]after Research of [LINK=literal]%s1_TechName[\LINK]</English>
+		<French>[SPACE]après la découverte de [LINK=literal]%s1_TechName[\LINK]</French>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_MUSIC</Tag>
+		<English>Music</English>
+		<French>Musique</French>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_DISTANCE_MAINTENANCE_MODIFIER</Tag>
+		<English>[NEWLINE][SPACE][SPACE][ICON_BULLET]%D1%% Maintenance Costs from Distance to Palace</English>
+		<French>[NEWLINE][SPACE][SPACE][ICON_BULLET]%D1%% aux coûts de maintenance liés à la distance du palais</French>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_BONUS_VALUE_MODIFIER</Tag>
+		<English>[NEWLINE][SPACE][SPACE][ICON_BULLET]%D1%% Increased Ratios for Resources (reduces Health, Happiness and Production Penalties from Insufficient Resources)</English>
+		<French>[NEWLINE][SPACE][SPACE][ICON_BULLET]Taux de ressouces augmentés de %D1%% (réduit les pénalités de santé, bonheur et production pour ressources insuffisantes)</French>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRADE_ROUTE_TOTAL</Tag>
+		<English>%s1 [ICON_COMMERCE]: Total</English>
+		<French>%s1 [ICON_COMMERCE] : total</French>
+		<German>%s1 [ICON_COMMERCE]: Gesamt</German>
+		<Italian>%s1 [ICON_COMMERCE]: totale</Italian>
+		<Spanish>%s1 [ICON_COMMERCE]: Total</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRADE_ROUTE_MOD_COASTAL</Tag>
+		<English>%D1%%: for Sea Trade</English>
+		<French>%D1%%: pour le commerce maritime</French>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_EGYPTIAN_OBELISK</Tag>
+		<English>Obelisk</English>
+		<French>Obélisque</French>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SEA_PLOT_YIELD</Tag>
+		<English>[ICON_BULLET]%D1%F2 for Water Tiles</English>
+		<French>[ICON_BULLET]%D1%F2 sur les cases d'eau</French>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_INCAN_QUECHUA</Tag>
+		<English>Awqaq Runa</English>
+		<French>Awqaq Runa</French>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISC_HELP_RESEARCH_PER_CULTURE_COMMERCE</Tag>
+		<English>[ICON_BULLET]+%s1[ICON_RESEARCH] from Culture</English>
+		<French>[ICON_BULLET]+%s1[ICON_RESEARCH] grâce à la culture</French>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_NO_SAME_FAITH_UNHAPPINESS</Tag>
+		<English>[ICON_BULLET]No Additional War Weariness Against Civilizations of the Same Faith</English>
+		<French>[ICON_BULLET]Aucun mécontentement de guerre supplémentaire contre les civilisations de la même foi</French>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_RELIGION_BOOST</Tag>
+		<English>[ICON_BULLET]One-time Religion Spread Boost</English>
+		<French>[ICON_BULLET]Accélérateur de propagation religieuse à usage unique</French>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HAPPY_TERRAIN</Tag>
+		<English>+%d1_Change[ICON_HAPPY]: "The landscape makes us happy!"</English>
+		<French>+%d1_Change[ICON_HAPPY]: "Le paysage nous rend heureux !"</French>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_ANY_STATE_RELIGION_HAPPINESS</Tag>
+		<English>[ICON_BULLET]%D1_Change%F2_HappyOrUn with any State [ICON_RELIGION]</English>
+		<French>[ICON_BULLET]%D1_Change%F2_HappyOrUn avec n'importe quelle [ICON_RELIGION] d'Etat</French>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_MISC_ATTITUDE_WAR_SUCCESS</Tag>
+		<English>%D1: "We are upset that you are slaughtering our men."</English>
+		<French>%D1: "Nous sommes contrariés que vous massacriez nos hommes."</French>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_MISC_ATTITUDE_CATCHING_UP_TOGETHER</Tag>
+		<English>%D1: "We must stick together if we want to prevail."</English>
+		<French>%D1: "Nous devons nous serrer les coudes pour triompher."</French>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_MISC_ATTITUDE_LIKE_BIGGER</Tag>
+		<English>%D1: "We strive to be like your great civilization."</English>
+		<French>%D1: "Nous nous efforçons de ressembler à votre grande civilisation."</French>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_MISC_ATTITUDE_DISLIKE_BIGGER</Tag>
+		<English>%D1: "We envy your powerful civilization."</English>
+		<French>%D1: "Nous envions votre puissante civilisation."</French>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_MISC_ATTITUDE_LIKE_SMALLER</Tag>
+		<English>%D1: "We admire your small civilization."</English>
+		<French>%D1: "Nous admirons votre petite civilisation."</French>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_MISC_ATTITUDE_DISLIKE_SMALLER</Tag>
+		<English>%D1: "Your civilization is pathetic compared to ours!"</English>
+		<French>%D1: "Votre civilisation est pathétique, comparée à la nôtre !"</French>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_MEMORY_BACKSTABBED_ALLY</Tag>
+		<English>"You betrayed your own friend!"</English>
+		<French>"Vous avez trahi nos amis !"</French>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_MISC_ATTITUDE_BASE_GOOD</Tag>
+		<English>%D1: "We are friendly towards other civilizations."</English>
+		<French>%D1: "Nous sommes amicaux envers les autres civilisations."</French>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_MISC_ATTITUDE_BASE_BAD</Tag>
+		<English>%D1: "We are cautious towards other civilizations."</English>
+		<French>%D1: "Nous sommes prudents face aux autres civilisations."</French>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_CAPITAL_TRADE_ROUTE_MODIFIER</Tag>
+		<English>%D1%%: for Capital</English>
+		<French>%D1%%: pour la capitale</French>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_MISC_HELP_YIELD_TECH</Tag>
+		<English>[ICON_BULLET]%D1%%%F2 from Technologies</English>
+		<French>[ICON_BULLET]%D1%%%F2 grâce aux technologies</French>
+		<German>[ICON_BULLET]%D1%%%F2 durch Technologien</German>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISSION_FORTIFY_HELP</Tag>
+		<English>The unit "digs in" to better withstand enemy attack. A unit gets a 5%% defensive bonus for each turn it is fortified, to a maximum bonus of 10%%.</English>
+		<French>L'unit&#233; se retranche pour mieux r&#233;sister aux attaques ennemies. Une unit&#233; retranch&#233;e b&#233;n&#233;ficie d'un bonus de d&#233;fense de 5%% pour chaque tour pass&#233; &#224; se r&#233;g&#233;n&#233;rer, avec un maximum de 10%%.</French>
+		<German>Die Einheit "gr&#228;bt sich ein", um dem Feind besser standhalten zu k&#246;nnen. Befestigte Einheiten erhalten pro Runde 5%% Defensivbonus (maximal 10%%).</German>
+		<Italian>L'unit&#224; si "trincera" per poter fronteggiare meglio l'attacco nemico. Un'unit&#224; guadagna il 5%% di bonus difensivo per ogni turno che rimane fortificata, fino a un massimo del 10%%.</Italian>
+		<Spanish>La unidad se "atrinchera" para aguantar mejor los ataques del enemigo. Obtiene una bonificaci&#243;n defensiva del 5%% por cada turno que se fortifique hasta un m&#225;ximo de un 10%%.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_APOSTOLIC_PALACE_HELP</Tag>
+		<English>[ICON_BULLET]All players produce +1[ICON_COMMERCE] with religion buildings of your religion.</English>
+		<French>[ICON_BULLET]Tous les joueurs produisent +1[ICON_COMMERCE] grace aux bâtiments de votre religion.</French>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_JAGUAR_WARRIOR</Tag>
+		<English>Jaguar Warrior</English>
+		<French>Guerrier Jaguar</French>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_EAGLE_WARRIOR</Tag>
+		<English>Eagle Warrior</English>
+		<French>Guerrier Aigle</French>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISC_RELIGIOUS_BUILDING_DESTROYED</Tag>
+		<English>Devotees of %F1_RelIcon in %s2_CityName burned down our %s3_BldgName!</English>
+		<French>Les fidèles de %F1_RelIcon à %s2_CityName ont réduit notre %s3_BldgName en cendres !</French>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_SLAVE</Tag>
+		<English>Slave</English>
+		<French>Esclave</French>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_BOMBARD_RATE</Tag>
+		<English>[ICON_BULLET]Can Bombard Cities (Bombard Strength: %d1_Mod)</English>
+		<French>[ICON_BULLET]Peut bombarder des villes (puissance de bombardement : %d1_Mod)</French>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_BOMBARD_RATE_SHORT</Tag>
+		<English>[ICON_BULLET]Bombard City: %d1_Mod</English>
+		<French>[ICON_BULLET]Bombardement de ville : %d1_Mod</French>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISSION_BOMBARD_HELP</Tag>
+		<English>Destroys buildings in nearest city.</English>
+		<French>Détruit des bâtiments dans la ville la plus proche.</French>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_VASSAL_COMMERCE_GAIN</Tag>
+		<English>[NEWLINE][SPACE][SPACE][ICON_BULLET]Receive %d1%% of vassal research, gold and espionage.</English>
+		<French>[NEWLINE][SPACE][SPACE][ICON_BULLET]Recevez %d1%% de la recherche, l'or et l'espionnage du vassal.</French>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_WARGALLEY</Tag>
+		<English>War Galley</English>
+		<French>Galère de guerre</French>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_VIKING_LONGSHIP</Tag>
+		<English>Longship</English>
+		<French>Drakkar</French>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_ESPIONAGE_CORPORATION_MOD</Tag>
+		<English>%D1%%: for Corporation</English>
+		<French>%D1%%: pour la société commerciale</French>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_DEFENSE_MOD</Tag>
+		<English>[ICON_BULLET]%d1_Mod%% Defense</English>
+		<French>[ICON_BULLET]%d1_Mod%% Défense</French>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CORPORATION_1</Tag>
+		<English>Silk Road</English>
+		<French>Route de la Soie</French>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CORPORATION_2</Tag>
+		<English>East India Company</English>
+		<French>Compagnie des Indes Orientales</French>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CORPORATION_3</Tag>
+		<English>Royal African Company</English>
+		<French>Compagnie royale d'Afrique</French>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CORPORATION_4</Tag>
+		<English>Luxury Industry</English>
+		<French>Industrie du luxe</French>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CORPORATION_5</Tag>
+		<English>Textile Industry</English>
+		<French>Industrie textile</French>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CORPORATION_6</Tag>
+		<English>Seafood Industry</English>
+		<French>Industrie de la pêche</French>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CORPORATION_7</Tag>
+		<English>Steel Industry</English>
+		<French>Industrie sidérurgique</French>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CORPORATION_8</Tag>
+		<English>Oil Industry</English>
+		<French>Industrie pétrolière</French>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CORPORATION_9</Tag>
+		<English>Fast Food Industry</English>
+		<French>Industrie du fast-food</French>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CORPORATION_10</Tag>
+		<English>Computer Industry</English>
+		<French>Industrie informatique</French>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CORPORATION_11</Tag>
+		<English>Arms Industry</English>
+		<French>Industrie de l'armement</French>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_EXECUTIVE_1</Tag>
+		<English>Silk Road Traveller</English>
+		<French>Voyageur de la Route de la Soie</French>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_EXECUTIVE_2</Tag>
+		<English>East India Company Ship</English>
+		<French>Navire de la Compagnie des Indes Orientales</French>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_EXECUTIVE_3</Tag>
+		<English>Royal African Company Ship</English>
+		<French>Navire de la Compagnie royale d'Afrique</French>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_EXECUTIVE_4</Tag>
+		<English>Luxury Industry Exec.</English>
+		<French>Cadre de l'industrie du luxe</French>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_EXECUTIVE_5</Tag>
+		<English>Textile Industry Exec.</English>
+		<French>Cadre de l'industrie textile</French>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_EXECUTIVE_6</Tag>
+		<English>Seafood Industry Exec.</English>
+		<French>Cadre de l'industrie de la pêche</French>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_EXECUTIVE_7</Tag>
+		<English>Steel Industry Exec.</English>
+		<French>Cadre de l'industrie sidérurgique</French>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_EXECUTIVE_8</Tag>
+		<English>Oil Industry Exec.</English>
+		<French>Cadre de l'industrie pétrolière</French>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_EXECUTIVE_9</Tag>
+		<English>Fast Food Industry Exec.</English>
+		<French>Cadre de l'industrie du fast-food</French>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_EXECUTIVE_10</Tag>
+		<English>Computer Industry Exec.</English>
+		<French>Cadre de l'industrie informatique</French>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_EXECUTIVE_11</Tag>
+		<English>Arms Industry Exec.</English>
+		<French>Cadre de l'industrie de l'armement</French>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_ABSOLUTISM</Tag>
+		<English>Absolutism</English>
+		<French>Absolutisme</French>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISC_HELP_PROD_SURPLUS_HAPPINESS</Tag>
+		<English>(incl. %D1[ICON_PRODUCTION] from Surplus [ICON_HAPPY])</English>
+		<French>(incl. %D1[ICON_PRODUCTION] grâce au [ICON_HAPPY] en surplus)</French>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PLOT_NO_UPGRADE</Tag>
+		<English>[SPACE](Progress to %s1_ImpName halted)</English>
+		<French>[SPACE](Progrès vers %s1_ImpName interrompu)</French>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_CIVIC_OPTION_NO_ANARCHY</Tag>
+		<English>[ICON_BULLET]No Anarchy for Switching [COLOR_BUILDING_TEXT]%s1[COLOR_REVERT] Civics</English>
+		<French>[ICON_BULLET]Aucune anarchie au changement de doctrines de [COLOR_BUILDING_TEXT]%s1[COLOR_REVERT]</French>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HAPPY_CIVIC</Tag>
+		<English>+%d1_Change[ICON_HAPPY]: "We love our ruler!"</English>
+		<French>+%d1_Change[ICON_HAPPY]: "Nous aimons notre dirigeant !"</French>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_OVERSEA_TRADE_ROUTE_MOD</Tag>
+		<English>[ICON_BULLET]%D1_Mod%% Oversea Trade Route Yield</English>
+		<French>[ICON_BULLET]%D1_Mod%% revenu des routes commerciales outre-mer</French>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_REQUIRES_POWER_OR</Tag>
+		<English>[COLOR_WARNING_TEXT][SPACE]or Power ([ICON_POWER])[COLOR_REVERT]</English>
+		<French>[COLOR_WARNING_TEXT][SPACE]ou de l'énergie ([ICON_POWER])[COLOR_REVERT]</French>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_REQUIRES_POWER_AND</Tag>
+		<English>[COLOR_WARNING_TEXT]Requires Power ([ICON_POWER])[COLOR_REVERT]</English>
+		<French>[COLOR_WARNING_TEXT]Nécessite de l'énergie ([ICON_POWER])[COLOR_REVERT]</French>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_DIMINISHED_RETURNS_WITH</Tag>
+		<English>[ICON_BULLET]Provides [ICON_GOLD] per City with %F1_RelIcon (diminished returns)</English>
+		<French>[ICON_BULLET]Fournit [ICON_GOLD] par ville avec %F1_RelIcon (rendements décroissants)</French>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_NO_UPKEEP</Tag>
+		<English>[ICON_BULLET]No Upkeep and Supply Cost</English>
+		<French>[ICON_BULLET]Aucun coût d'entretien ou de ravitaillement</French>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISC_HELP_GOLD_FOR_HAPPINESS_RESOURCE</Tag>
+		<English>[ICON_BULLET]+%s1[ICON_GOLD] from Resources</English>
+		<French>[ICON_BULLET]+%s1[ICON_GOLD] grâce aux ressources</French>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISC_SLAVES_LOST</Tag>
+		<English>After abolishing Slavery, all your Slaves are now free!</English>
+		<French>Suite à l'abolition de l'esclavage, tous vos esclaves sont maintenant libres !</French>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISC_SLAVE_STARTED_WORKING</Tag>
+		<English>A slave started working in %s1.</English>
+		<French>Un esclave a commencé à travailler à %s1.</French>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_CANNOT_ENTER</Tag>
+		<English>[ICON_BULLET]Cannot Enter</English>
+		<French>[ICON_BULLET]Ne peut pas entrer</French>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_CANNOT_ENTER_WITHOUT_ROAD</Tag>
+		<English>[ICON_BULLET]Requires Road To Enter</English>
+		<French>[ICON_BULLET]Nécessite une route pour entrer</French>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_BONUS_UNIT_PRODUCTION_MOD</Tag>
+		<English>[ICON_BULLET]%D1_Mod%% Military Unit Production with [LINK=literal]%s2[\LINK]</English>
+		<French>[ICON_BULLET]%D1_Mod%% production d'unités militaires avec [LINK=literal]%s2[\LINK]</French>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_BONUS_BUILDING_PRODUCTION_MOD</Tag>
+		<English>[ICON_BULLET]%D1_Mod%% Building Production with [LINK=literal]%s2[\LINK]</English>
+		<French>[ICON_BULLET]%D1_Mod%% production de bâtiments avec [LINK=literal]%s2[\LINK]</French>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_MASON</Tag>
+		<English>Mason</English>
+		<French>Maçon</French>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_TANNERY</Tag>
+		<English>Tannery</English>
+		<French>Tannerie</French>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_BUILDING_MOD</Tag>
+		<English>[ICON_BULLET]%D1_Mod%% Building Production</English>
+		<French>[ICON_BULLET]%D1_Mod%% production de bâtiments</French>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISC_HELP_PROD_MOD_BUILDING</Tag>
+		<English>[ICON_BULLET]%D1%[ICON_PRODUCTION] from Buildings</English>
+		<French>[ICON_BULLET]%D1%[ICON_PRODUCTION] grâce aux bâtiments</French>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_GREAT_UNIVERSITY</Tag>
+		<English>Great University</English>
+		<French>Grande université</French>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_REQUIRES_RIVER</Tag>
+		<English>[COLOR_WARNING_TEXT]Requires nearby River[COLOR_REVERT]</English>
+		<French>[COLOR_WARNING_TEXT]Nécessite la proximité d'une rivière[COLOR_REVERT]</French>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_REQUIRES_COAST</Tag>
+		<English>[COLOR_WARNING_TEXT]Requires nearby Coast[COLOR_REVERT]</English>
+		<French>[COLOR_WARNING_TEXT]Nécessite la proximité de la côte[COLOR_REVERT]</French>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_YIELD_WITH_SOMETHING</Tag>
+		<English>[SPACE]with [LINK=literal]%s1[\LINK]</English>
+		<French>[SPACE]avec [LINK=literal]%s1[\LINK]</French>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_MISSILE_SUBMARINE</Tag>
+		<English>Missile Submarine</English>
+		<French>Missile sous-marin</French>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_BUILDING_PRODUCTION_MODIFIER</Tag>
+		<English>[NEWLINE][SPACE][SPACE][ICON_BULLET]%D1%% Building Production</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISC_HELP_PRODUCTION_CIVILIZATION</Tag>
+		<English>[ICON_BULLET]%D1%%[ICON_PRODUCTION] for Buildings</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_VOTE_UNIVERSAL_SUFFRAGE</Tag>
+		<English>U.N. Resolution #3312 (Global Civic - Republic)</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_VOTE_FREE_RELIGION</Tag>
+		<English>U.N. Resolution #3312 (Global Civic - Secularism)</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_ANGER_COLONY</Tag>
+		<English>+%d1_Change[ICON_UNHAPPY]: "We want our Independence!"</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IN_FATCROSS</Tag>
+		<English>[COLOR_WARNING_TEXT] in City Proximity (Fat Cross)[COLOR_REVERT]</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_COMBAT_RANGE_DISADVANTAGE</Tag>
+		<English>[ICON_BULLET]%D1_Bonus%% from Range Disadvantage</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISC_CORPORATION_DRIVEN_OUT</Tag>
+		<English>[COLOR_HIGHLIGHT_TEXT]%s1_CorpName[COLOR_REVERT] has been driven out of %s2_CityName by [COLOR_HIGHLIGHT_TEXT]%s3_CorpName[COLOR_REVERT].</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISC_ENABLES_IDEOLOGIES</Tag>
+		<English>[ICON_BULLET]Enables [ICON_UNHAPPY] from Foreign Civics for All Players</English>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_COMBAT_XP_MODIFIER_POSITIVE</Tag>
+		<English>[ICON_BULLET]Enables [ICON_UNHAPPY] from Foreign Civics</English>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_CHARTERED_COMPANY</Tag>
+		<English>Chartered Company</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_NATIONAL_MILITARY_ACADEMY</Tag>
+		<English>National Military Academy</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_BIT_DINU</Tag>
+		<English>Bit Dinu</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROJECT_ENABLES_NUKES</Tag>
+		<English>[ICON_BULLET]Enables Nuclear Attacks</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_ROME_PRAETORIAN</Tag>
+		<English>Legion</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_MECHANIZED_INFANTRY</Tag>
+		<English>Mechanized Infantry</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_EGYPT_WARCHARIOT</Tag>
+		<English>War Chariot</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_PERIA_IMMORTAL</Tag>
+		<English>Scythed Chariot</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_HORSE_ARCHER</Tag>
+		<English>Horseman</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_CRUISER</Tag>
+		<English>Cruiser</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_PLASTICS</Tag>
+		<English>Modern Combat</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_WORLD_EPIC</Tag>
+		<English>Epic</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_AQUEDUCT</Tag>
+		<English>Garden</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_ROMAN_FORUM</Tag>
+		<English>Aqueduct</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_OBELISK</Tag>
+		<English>Monument</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_CHICHEN_ITZA</Tag>
+		<English>The Senate</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_GREAT_DAM</Tag>
+		<English>The Hoover Dam</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_EXCLUSIVISM</Tag>
+		<English>Exclusivism</English>
+	</TEXT>
+		<TEXT>
+		<Tag>TXT_KEY_TECH_MODERN_COMBAT_QUOTE</Tag>
+		<English>"We no longer demand anything, we want war." - Joachim von Ribbentrop</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_EXCLUSIVISM_QUOTE</Tag>
+		<English>"Fight and slay the pagans wherever ye find them, and take them, and besiege them" - Quran 9:5</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_ALCHEMY_QUOTE</Tag>
+		<English>"Alchemy is a kind of philosophy: a kind of thinking that leads to a way of understanding." - Marcel Duchamp</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_WORLDSIZE_TOTESTRA_HELP</Tag>
+		<English>If you are looking for a truly epic experience, this map size is for you.  It has room for you and 18 opponents. This is the recommended mapsize for this mod when playing on Totestra maps.</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_WORLDSIZE_EPIC_HELP</Tag>
+		<English>If you are looking for a truly epic experience, this map size is for you.  It has room for you and 31 opponents.</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_GALLEASS</Tag>
+		<English>Galleass</English>
+		<French>
+			<Text>Galleass</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Galleasse</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Galeazza</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Galleass</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+		<Hungarian>Galleass</Hungarian>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_MOTORIZED_INFANTRY</Tag>
+		<English>Motorized Infantry</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_NO_PILLAGE</Tag>
+		<English>[NEWLINE][SPACE][SPACE][ICON_BULLET]Improvements are Protected from Pillaging</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISC_BONUS_RATIO_INFO</Tag>
+		<English>Resource Ratio Represents Your Ability to Satisfy the Demand of Your Population</English>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_MISC_BONUS_RATIO_POPULATION</Tag>
+		<English>Divided by Population: %d1</English>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_MISC_BONUS_RATIO_TECH_VALUE</Tag>
+		<English>Tech Value: %s1</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISC_BONUS_RATIO_TOTAL_RATIO</Tag>
+		<English>Total Ratio: %s1</English>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_MISC_BONUS_RATIO_BASE_RATIO</Tag>
+		<English>Base Ratio: %s1</English>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_MISC_BONUS_RATIO_MULTIPLIER_POSITIVE</Tag>
+		<English>[ICON_BULLET]+%d1% from Civics or Traits</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISC_BONUS_RATIO_MULTIPLIER_NEGATIVE</Tag>
+		<English>[ICON_BULLET]-%d1% from Civics or Traits</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISC_BONUS_RATIO_MULTIPLIER_NEGATIVE</Tag>
+		<English>[ICON_BULLET]-%d1% from Civics or Traits</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISC_BONUS_RATIO_CAPPED</Tag>
+		<English>[SPACE](Capped at 1.00)</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_NAVIGATION</Tag>
+		<English>Navigation</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISC_ATTITUDE_NEED_OPEN_BORDERS</Tag>
+		<English>%D1: "We are eager to establish new diplomatic relations."</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_LEATHER_WORKING</Tag>
+		<English>Leather Working</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_LEATHER_WORKING_QUOTE</Tag>
+		<English>"Tis the same to him who wears a shoe, as if the whole earth were covered in leather." - Persian proverb</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GAMEOPTION_NO_COLONY_ANGER</Tag>
+		<English>No Modern Unhappiness in Colonies</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GAMEOPTION_UNLIMITED_WORKERS</Tag>
+		<English>Unlimited Workers</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GAMEOPTION_NO_COLONY_ANGER_HELP</Tag>
+		<English>Without this game options, colonies (oversea cities of your empire) wish for independance in modern times and eventually you may want to grant them vassal status. This game option is for players who don't like this new dynamic.</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GAMEOPTION_UNLIMITED_WORKERS_HELP</Tag>
+		<English>Removes the restriction of 8 workers per player. Per default the number of workers is limited to reduce micro-managing and make expanding more challenging.</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_ESPIONAGE_TARGET_STEAL_TREASURY</Tag>
+		<English>%D1 gold of our state treasury was looted by enemy infiltrators!</English>
+		<French>>Une partie de notre tr&#233;sor a &#233;t&#233; pill&#233;e par des ennemis infiltr&#233;s ! (%D1 or)</French>
+		<German>Feindliche Spione haben %D1 Gold aus unserem Staatsschatz erbeutet!</German>
+		<Italian>Infiltrati nemici hanno rubato una parte del nostro tesoro di stato! (%D1 oro)</Italian>
+		<Spanish>&#161;Los enemigos infiltrados han saqueado parte de nuestro tesoro! (%D1 oro)</Spanish>
+	</TEXT>
+</Civ4GameText>
