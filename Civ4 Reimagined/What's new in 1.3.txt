@@ -1,0 +1,130 @@
+*******************************************
+Civ4 Reimagined 1.3
+*******************************************
+
+*********
+New
+*********
+-National building: Great Harbor (+1 [P] from water tiles)
+-Slaves can be gained by conquering enemy cities (dimished returns).
+
+*********
+Changes
+*********
+-Achers and Longbowman gain additional defense bonuses from defensive buildings such as walls and castles. Before offensive units with higher ST would benefit more from walls/castles thant he dedicated city defenders, making balancing them tricky. Reduced city defense (Longbowman only) and increased costs  to compensate.
+-Horses become obsolete with Industrialism
+
+*********
+Tweaks
+*********
+-Axemen bonus vs Archer reduced from 30% to 25%.
+-Chance for destroying buildings when bombarding cities halved
+-Cathedrals cannot be destroyed when bombarding cities
+-Units with hidden nationality no longer contribute to a civ's power value
+
+*********
+Interface
+*********
+
+
+*********
+Fixes
+*********
+-Fixed a bug where AI was bombarding cities without any defensive buildings with land based siege units
+-"The old dynasty has died out" event now has a different drawback. "Unhappiness in capital" was always negated by Dynasticism's unlimited happiness.
+
+
+
+*******************************************
+Civ4 Reimagined 1.2
+*******************************************
+
+*********
+New
+*********
+-French translation project by juni_be_good. If you are interested in helping us to translate Civ4 Reimagined into your language, just drop us a message.
+-New ancient building: Tannery (+2[g], -1[h], costs 90[p], +1[hap] from deer, fur). Available with Leather Working.
+-Archery replaced with Leather Working. Archers moved to Hunting.
+-Removed Totem Pole and added a tannery as unique building for Native Americans.
+-New game option to disable the worker limit.
+-New game option to disable modern unhappiness in colonies.
+-All leaders have the same base attitude and instead gain a relationship bonus when they don't have enough open border contracts.
+-Tech cost for all players scale with handicap setting. This should result in a more consistent game speed across difficulty levels. Feedback on the modifiers is highly appreciated.
+-Entering war on behalf of an AI player grants a small "You agreed to come to our aid in war-time." diplomatic modifier.
+
+*********
+Changes
+*********
+-Redestributed bonuses for fur, deer, wine and whale across market, grocer, supermarket and tannery.
+-Horseback Riding requires Leather Working instead of Iron Working but at increased cost.
+-Changed the way "balanced resources" map option works: Every player now has at least one copper, iron and oil near his starting position instead of exactly one of each.
+-Production penalties for insufficient strategic resources are halved. Example: With a ratio of 0.8 and 1 Iron, your production speed for swordsman will be 90% (-20% for a 0.8 ratio, halved to -10%).
+-Great Generals are always born in capital
+-All diplomacy modifiers expire eventually. Harsher modifiers such as "nuked us" take more time to be forgotten than smaller ones such as "made demand".
+-No blockade gold from barbarian cities
+-Slaves can no longer be captured by players without slavery
+-Bombarding city mechanic slightly changed. Castles are always targeted before Walls with a small chance to destroy other buildings. Success chance no longer depends on number of buildings in the city
+
+*********
+Tweaks
+*********
+-Fighters and pre-modern ships are less effective when bombarding cities
+-Adjusted tech costs to incorporate Leather Working change.
+-Slightly increased technology progression for medieval+.
+-Some AI adjustments when deciding which technology to research next.
+-Improved AI Civic and Corporation evaluations
+-AI doesn't cancel deals as often as before (except open borders, which are cancelled quicker)
+-Uranium yield with mine changed from 3 additional commerce to 1 additional production
+-Airports require Oil
+-Railroad building time reduced from 400 to 200
+-Tyranny upkeep cost increased from low to medium
+-Capitalism upkeep cost increased from low to medium
+-Tank production cost increased from 180 to 250
+-Tank city strength reduced from -10% to -15%
+-Modern Armor production cost increased from 240 to 320
+-Battleship production cost increased from 280 to 350
+-Missile Cruiser production cost increased from 300 to 370
+-Movement speed for Corporation ships increased from 4 to 6
+-Commerce yield from gold/silver/gems reduced by 1
+-Angkor Wat becomes obsolete with Liberalism (was: Computers).
+-Academy grants +1 scientist slot.
+-No improvement building speed penalty for tundra terrain
+-Ajusted appearance of copper, iron, oil, horse and stone
+-Deer and fur appearance increased on most map types
+-Switched rarity for gold and silver.
+-Increased passive spread for Luxury Industry
+-Reduced cost for The Great Dam
+-Native Americans start with Hunting instead of Agriculture
+-Event quests that require a certain number of units to be build can only trigger with less than 50% quest progress at start. Increased number of units required for completion.
+-Pushed back the looter and marauder event into the renaissance. For an event that could destroy multiple buildings and improvements it could trigger awfully early.
+-Totestra map script: "Reduce peaks" is disabled per default
+
+*********
+Interface
+*********
+-Improved city resource display, which can now show up to 99 of each resource without overlapping.
+-Building preview shows estimated commerce gain for bonus trade routes
+-Different unit art: German horseman (looked too advanced for classic tech unit), Japanese axeman (using two swords prior to swordsmen was a bit unfair), Roman caravel and Arab/Babylon/Carthage/Celtic/Egypt/Ethiopian/Malinese/Persian/Sumer frigate (suffering from looking to old/frail and unable to go over the ocean - the model was pretty, but it was hard to tell whether it was a ship of war or a fishing boat).
+-Displays how much gold has been stolen by enemy spies
+-Withdrawal and collateral messages are displayed in yellow instead of red.
+-Improved babylonian unique building text
+-Improved slave unit texts, should help to determine how slaves are gained
+
+*********
+Fixes
+*********
+-Fixed a bug where old BtS Texts were showing up instead of our new ones.
+-Fixed a bug where units could be upgraded without having the appropriate resources when playing with the mercenary civic
+-Fixed display for gold per happiness resource from Mercantilism.
+-Maximum number of specialists (i.e. "Max: 6") shows up again even when the number of specialists allowed was doubled
+-Fixed unit buttons for celtic and zulu tanks.
+-Fixed city trade route display now showing custom house oversea trade modifier
+-Fixed various event help texts
+-Totestra map script no longer places starting position close to map boundaries.
+
+
+*******************************************
+Civ4 Reimagined 1.1
+*******************************************
+-Fixed major bug that allowed resources to stack their health/happiness beyond 1
+-Fixed bug displaying health/happiness benefits from resources incorrectly for resource ratios below 0.1
